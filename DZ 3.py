@@ -16,7 +16,7 @@ brands_of_car = {
 
 def drive(self):
     if self.strength>0 and
-       self.fuel>=self.consumption:
+       self.fuel>=self.consumption
        self.fuel-=self.consumption
        self.strength-=1
        return True
