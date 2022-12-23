@@ -199,7 +199,7 @@ brands_of_gun = {"GLock": {'bullet': 20, 'damage': 15},
                  "Pm": {'bullet': 8, 'damage': 25 },
                  "DesertEagle": {'bullet': 7, 'damage': 75 }}
 
-nick = Human(name='Nick')
+nick = Human(name='Sasha')
 for day in range(1, 8):
-    if nick.live(day) == False:
+    if not nick.live(day):
         break
